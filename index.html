@@ -11,8 +11,7 @@
           <h2><li> علي داخل فاضل</li></h2>
 <h2><li>احمد داخل فاضل</li></h2>
  <h2><li>حسين فارس كريم</li></h2>
- <h2><li> هندسه الاجهزة طبيه  </li></h2>
-	<h2><li>المرحله الثانيه</li></h2>      
+ <h2><li>اجهزه طبيه </li></h2>
       </body>
   </html>
  
@@ -57,7 +56,56 @@
    <h1>@7assuming6 </h1>
    <h2>انستا احمد</h2>
 
-   <li>2024/12/15</li>  
+   <li><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display Date</title>
+    </head>
+    <body>
+        <h1>Current Date</h1>
+        <p id="date"></p>
+    
+        <script>
+            document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+        </script>
+    </body>
+    </html></li>  
+    <li> <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Current Time Display</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    margin-top: 20%;
+                }
+                .time {
+                    font-size: 48px;
+                    color: #333;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="time" id="currentTime"></div>
+        
+            <script>
+                function updateTime() {
+                    const now = new Date();
+                    const hours = String(now.getHours()).padStart(2, '0');
+                    const minutes = String(now.getMinutes()).padStart(2, '0');
+                    document.getElementById('currentTime').textContent = `${hours}:${minutes}`;
+                }
+        
+                setInterval(updateTime, 60000); // Update every minute
+                updateTime(); // Initial call to display time immediately
+            </script>
+        </body>
+        </html></li>
 <li>ما عندي سالفه </li>    
 <li>اطالب ب حقوقي و اعفائي من الامتحان </li> 
 
@@ -91,8 +139,9 @@ p {
 		</style>
 	</head>
 	<body>
-		
-		<p><a href="https://www.instagram.com/w_j_6/profilecard/?igsh=YnB1cGsxdmtzc3V5" target="_blank"> رابط ملف شخصي </a></p>
+       <p> <a href="https://ail20alt.github.io/doda/"  ><button>دوده او حيه 0.1</button> </a></p>
+		<p><a href="https://ail20alt.github.io/ail22/"> <button>شطرنج 0.1</button> </a></p>
+		<p><a href="https://www.instagram.com/w_j_6/profilecard/?igsh=YnB1cGsxdmtzc3V5" > <button>حسابي على انستا</button> </a></p>
 		<div>
 			
 		</div>
@@ -150,8 +199,7 @@ h1 {
 
 
 
-
-
+   
  
 
 
@@ -231,7 +279,46 @@ img {
         
 </html>
 
+<link rel="css/style.css">
+
+
+       <section></section>
 
 
 
 
+
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Current Time Display</title>
+           <style>
+               body {
+                   font-family: Arial, sans-serif;
+                   text-align: center;
+                   margin-top: 20%;
+               }
+               .time {
+                   font-size: 48px;
+                   color: #333;
+               }
+           </style>
+       </head>
+       <body>
+           <div class="time" id="currentTime"></div>
+       
+           <script>
+               function updateTime() {
+                   const now = new Date();
+                   const hours = String(now.getHours()).padStart(2, '0');
+                   const minutes = String(now.getMinutes()).padStart(2, '0');
+                   document.getElementById('currentTime').textContent = `${hours}:${minutes}`;
+               }
+       
+               setInterval(updateTime, 60000); // Update every minute
+               updateTime(); // Initial call to display time immediately
+           </script>
+       </body>
+       </html>
